@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/charliec1665/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/charliec1665/jest-another-RPG#readme"
+  "homepage": "https://github.com/charliec1665/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
 }
