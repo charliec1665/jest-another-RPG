@@ -1,6 +1,7 @@
 const Player = require('../lib/Player');
 const Potion = require('../lib/Potion');
 
+// instructs Jest to use the mock file so we can test in isolation
 jest.mock('../lib/Potion');
 
 console.log(new Potion());
